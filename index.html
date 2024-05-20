@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who Wants to Be a Millionaire?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1></h1>
+
+    <div id="game-container">
+        <div id="question-container">
+            <p id="question"></p>
+            <div id="answers">
+                <button class="answer" onclick="selectAnswer(0)"></button>
+                <button class="answer" onclick="selectAnswer(1)"></button>
+                <button class="answer" onclick="selectAnswer(2)"></button>
+                <button class="answer" onclick="selectAnswer(3)"></button>
+            </div>
+        </div>
+        <div id="result-container">
+            <p id="result"></p>
+        </div>
+        <button id="next-button" onclick="nextQuestion()">Next Question</button>
+    </div>
+
+    <!-- Results Section -->
+    <div id="results">
+        <h2>Results:</h2>
+        <div>Correct Answers: <span id="correct-count">0</span></div>
+        <div>Wrong Answers: <span id="wrong-count">0</span></div>
+        <button id="reset-button">Reset Results</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

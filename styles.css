@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282c34;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#question {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+#game-container {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #444;
+    margin-bottom: 20px;
+}
+
+#answers {
+    display: flex;
+    flex-direction: column;
+}
+
+.answer {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #deeef2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+}
+
+.answer:hover {
+    background-color: #21a1f1;
+}
+
+/* Styling for correct answer */
+.correct {
+    background-color: #28a745;
+    color: black;
+}
+
+/* Styling for wrong answer */
+.wrong {
+    background-color: #dc3545;
+    color: black;
+}
+
+#next-button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: lightgrey;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#next-button:hover {
+    background-color: #21a1f1;
+}
+
+#result-container {
+    margin-top: 20px;
+}
+
+/* Results Section Styles */
+#results {
+    text-align: center;
+    /* background-color: #333; */
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+#results h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+#results div {
+    margin-bottom: 10px;
+}
+
+#reset-button {
+    background-color: rgba(211, 211, 211, 0.371);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    color: black;
+}
+
+#reset-button:hover {
+    background-color: darkgray;
+}
