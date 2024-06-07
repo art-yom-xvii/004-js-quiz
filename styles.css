@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #282c34;
@@ -7,7 +12,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
 }
 
 h1 {
@@ -29,7 +33,6 @@ h1 {
     padding: 20px;
     border-radius: 10px;
     background-color: #444;
-    margin-bottom: 20px;
 }
 
 #answers {
@@ -51,13 +54,11 @@ h1 {
     background-color: #21a1f1;
 }
 
-/* Styling for correct answer */
 .correct {
     background-color: #28a745;
     color: black;
 }
 
-/* Styling for wrong answer */
 .wrong {
     background-color: #dc3545;
     color: black;
@@ -80,10 +81,8 @@ h1 {
     margin-top: 20px;
 }
 
-/* Results Section Styles */
 #results {
     text-align: center;
-    /* background-color: #333; */
     padding: 20px;
     border-radius: 10px;
     width: 200px;

@@ -2345,7 +2345,7 @@ function selectAnswer(index) {
         });
 
         answerSelectedByKeyboard = true; // Устанавливаем флаг, что ответ был выбран с помощью клавиш
-        document.getElementById("next-button").style.display = "block";
+        document.getElementById("next-button").style.display = "inline";
 
         // Обновляем результаты и сохраняем их в localStorage
         updateResults();
